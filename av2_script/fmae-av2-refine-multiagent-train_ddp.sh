@@ -1,0 +1,14 @@
+CUDA_VISIBLE_DEVICES="2,3" torchrun --master_port 12372 --nproc_per_node 2 av2_py/train_ddp_refine-av2-multiagent.py \
+  --features_dir data_av2_refine/p1_fmae_av2_final/ \
+  --lr 14e-5 \
+  --train_batch_size 16 \
+  --val_batch_size 16 \
+  --val_interval 1 \
+  --train_epoches 64 \
+  --use_cuda \
+  --logger_writer \
+  --file_name $(basename $0) \
+  --embed_dim 64 \
+  --refine_num 3 \
+  --seg_num 4 \
+  --local_radius 10
