@@ -32,6 +32,21 @@ Paper Link: [paper](https://openaccess.thecvf.com/content/ICCV2025/papers/Xiao_S
   ```
 
 ### Play with pretrained models
+Download the dataset(Dataset: Argiverse v2; Baseline: Forecast-MAE): [dataset](https://openxlab.org.cn/datasets/Leonnn/SRefiner-FMAE)
+
+Due to limitations imposed by the cloud storage platform, each compressed archive must not exceed 4GB in size. We have split the training set into multiple subsets. Please decompress all subsets and organize the files as follows:
+  ```
+  SRefiner/
+  ├── data_av2_refine/
+  │      ├──p1_fmae_av2_final/
+  │      │     ├── train/
+  │      │     │     ├── scene_0001.pkl
+  │      │     │     ├── scene_0002.pkl
+  │      │     │     └── ...
+  │      │     └── val/
+  │      │           ├── scene_1001.pkl
+  │      │           └── ...
+  ```
 Evaluate on the pretrained model
   ```bash
   cd SRefiner
