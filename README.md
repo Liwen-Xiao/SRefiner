@@ -93,3 +93,6 @@ We would like to express sincere thanks to the authors of the following packages
 * [SIMPL](https://github.com/HKUST-Aerial-Robotics/SIMPL)
 * [HiVT](https://github.com/ZikangZhou/HiVT)
 * [SmartRefine](https://github.com/opendilab/SmartRefine)
+
+## 📎 License
+This repository is licensed under [MIT license](https://github.com/Liwen-Xiao/SRefiner/blob/main/LICENSE).
